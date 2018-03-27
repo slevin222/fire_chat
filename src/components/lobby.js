@@ -17,6 +17,7 @@ class Lobby extends Component {
     }
 
     componentDidMount() {
+        console.log('go')
         db.ref('/chat-rooms').on('value', snapshot => {
             this.props.getRoomList(snapshot.val());
         })
