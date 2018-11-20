@@ -16,10 +16,12 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
+    "debug": "^4.1.0",
     "deep-extend": "^0.6.0",
     "firebase": "^4.10.1",
     "forwarded": "^0.1.2",
     "fresh": "^0.5.2",
+    "macaddress": "^0.2.9",
     "materialize-css": "^0.100.2",
     "mime": "^2.3.1",
     "protobufjs": "^6.8.8",
@@ -28,7 +30,8 @@
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
     "redux": "^3.7.2",
-    "redux-form": "^7.3.0"
+    "redux-form": "^7.3.0",
+    "url-parse": "^1.4.4"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
